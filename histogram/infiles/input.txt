@@ -1,0 +1,18 @@
+AThe quick brown fox jumped over the lazy dogs back.
+Last login: Sun Feb 20 21:00:50 on ttys001
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+class Simple{  
+    public static boolean inTable() {
+     int ntable = 100;
+     int j = 0;
+     return (j == ntable);
+    }
+    public static void main(String args[]){  
+     System.out.println("Hello Java");  
+     System.out.println(inTable());
+    }  
+} 
+MacBook-3:~ williamcrupi$ 
