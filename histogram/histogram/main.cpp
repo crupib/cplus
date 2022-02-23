@@ -2,9 +2,9 @@
 #include <fstream>
 #include <vector>
 
-
 #define NELMS(array) (sizeof array) / sizeof (array[0])
-const int LETTER_Z = 122;
+const int LETTER_z = 122;
+const int LETTER_a = 97;
 // Globals
 int nelms;
 using std::cout; using std::cerr;
@@ -29,7 +29,7 @@ static void check_bytes(int &a, const vector<char> &bytes, char &c, char *ch) {
     for (const auto &i : bytes) {
         if (isalpha(i)) {
             c = tolower(i);
-            a = nelms-(LETTER_Z-int(c));
+            a = nelms-(LETTER_z-int(c));
             ch[a]++;
         }
     }
@@ -58,20 +58,17 @@ char * create_histogram_array(ifstream & file){
 }
 
 void print_histogram(char arr[], int n){
-  
-   for (char i = n; i >= 0; i--) {
-      cout.width(2);
-      cout << std::right << i << " | ";
-      for (char j = 0; j < n; j++) {
-         if (arr[j] >= i)
-            cout << " * ";
-         else
-            cout << " ";
-      }
-      cout << "\n";
-   }
-       
-}
+    cout << "  " << "123456789012345678901234567890" << endl;
+    cout << "  " << "------------------------------" << endl;
+    for (char i = 0; i <= n; i++) {
+       int count = arr[i];
+       char letter=(char)(i+LETTER_a);
+       cout << letter << "|";
+       for (char j = 0; j < count; j++)
+             cout << "*";
+       cout << "\n";
+    }
+ }
 
 int main()
 {
@@ -79,12 +76,8 @@ int main()
     
     ifstream file_read = ReadFile(filename);
     char * ptr_histogram_array;
-    
+
     ptr_histogram_array = create_histogram_array(file_read);
-//    for (int x = 0; x <= nelms ;x++) {
-//        printf("%d ",ptr_histogram_array[x]);
-//    }
-//    printf("\n");
     print_histogram(ptr_histogram_array, nelms);
     cout << endl;
     file_read.close();
