@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>histogram.xcscheme_^#shared#^_</key>
+		<key>quicksort.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>86DB311227C32950008BBEDD</key>
+		<key>8698761027C70E010010FD3A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
