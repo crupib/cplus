@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>A3FA2CB6-F2C6-46DB-BDE2-70FF22683743</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A3FA2CB6-F2C6-46DB-BDE2-70FF22683743.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>mygrep project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>mygrep</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build mygrep</string>
+			<key>timeStartedRecording</key>
+			<real>667361541.95663798</real>
+			<key>timeStoppedRecording</key>
+			<real>667361554.51573503</real>
+			<key>title</key>
+			<string>Build mygrep</string>
+			<key>uniqueIdentifier</key>
+			<string>A3FA2CB6-F2C6-46DB-BDE2-70FF22683743</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,60 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "bf2742eab234e2a8fb9d392d7d32142de2322f2a268db98b01c92b70d3c23c5a"
+    }
+  ],
+  "containerPath" : "/Users/williamcrupi/Documents/github/cplus/search/search.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/williamcrupi/Documents/github/cplus/quicksort/search-evmeprrpyynhzkacrrmrjltailbm/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/williamcrupi/Documents/github/cplus/quicksort/search-evmeprrpyynhzkacrrmrjltailbm/Index/Build/Products",
+      "derivedDataPath" : "/Users/williamcrupi/Documents/github/cplus/quicksort",
+      "indexDataStoreFolderPath" : "/Users/williamcrupi/Documents/github/cplus/quicksort/search-evmeprrpyynhzkacrrmrjltailbm/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/williamcrupi/Documents/github/cplus/quicksort/search-evmeprrpyynhzkacrrmrjltailbm/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/williamcrupi/Documents/github/cplus/quicksort/search-evmeprrpyynhzkacrrmrjltailbm/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/williamcrupi/Documents/github/cplus/quicksort/search-evmeprrpyynhzkacrrmrjltailbm/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
