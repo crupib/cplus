@@ -16,16 +16,18 @@ using namespace  std;
 
 typedef struct Nameval NAMEVAL;
 struct Nameval {
-    char *  name;
+//    char * name;
+    string name;
     int value;
 };
-int lookup(char * name, Nameval tab[], int ntab){
+int lookup(string name, Nameval tab[], int ntab){
     int low, high, mid, cmp;
+ 
     low = 0;
     high = ntab-1;
     while (low <= high) {
         mid = (low + high)/2;
-        cmp = strcmp(name,tab[mid].name);
+        cmp = name.compare(tab[mid].name);
         if (cmp < 0)
             high = mid-1;
         else if (cmp > 0)
@@ -48,6 +50,7 @@ int main(int argc, const char * argv[]) {
     printf("The HTML table has %lu words\n", NELMS(htmlchars));
     cout << "Hello, World!\n";
     half = lookup("Acirc", htmlchars, NELMS(htmlchars));
+    cout << "htmlchars = " << htmlchars[half].name << "\n";
     printf("half = %d\n", half);
     return 0;
 }
