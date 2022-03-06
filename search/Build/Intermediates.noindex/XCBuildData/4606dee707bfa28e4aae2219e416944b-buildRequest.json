@@ -1,0 +1,57 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "869b30e45fee14b536f4d809d823ea503b01d04e69e814db231344cc26283aa9"
+    }
+  ],
+  "containerPath" : "/Users/williamcrupi/Documents/github/cplus/growing_array/growing_array.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/williamcrupi/Documents/github/cplus/search/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/williamcrupi/Documents/github/cplus/search/Build/Products",
+      "derivedDataPath" : "/Users/williamcrupi/Documents/github/cplus/search",
+      "indexDataStoreFolderPath" : "/Users/williamcrupi/Documents/github/cplus/search/growing_array-ahwxfpvegzeockheceatezhsvvfq/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/williamcrupi/Documents/github/cplus/search/growing_array-ahwxfpvegzeockheceatezhsvvfq/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/williamcrupi/Documents/github/cplus/search/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
