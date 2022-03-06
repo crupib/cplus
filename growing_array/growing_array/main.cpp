@@ -101,6 +101,7 @@ int main(int argc, char const *argv[])
     printf("%s %d\n", nvtab.namevel->name.c_str(), nvtab.namevel->value);
     printf("%s %d\n", nvtab.namevel[1].name.c_str(), nvtab.namevel[1].value);
     printf("%s %d\n", nvtab.namevel[2].name.c_str(), nvtab.namevel[2].value);
+    printf("%s %d\n", nvtab.namevel[8].name.c_str(), nvtab.namevel[8].value);
     printf("nval: %d max: %d\n", nvtab.nval, nvtab.max);
     //string delstring = "abc";
     delname("abc");
