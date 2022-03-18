@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>13772CE3-3115-4E17-9C47-72566424BE2E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>13772CE3-3115-4E17-9C47-72566424BE2E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QS_Experiment project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QS_Experiment</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QS_Experiment</string>
+			<key>timeStartedRecording</key>
+			<real>668297670.20659399</real>
+			<key>timeStoppedRecording</key>
+			<real>668297671.486305</real>
+			<key>title</key>
+			<string>Build QS_Experiment</string>
+			<key>uniqueIdentifier</key>
+			<string>13772CE3-3115-4E17-9C47-72566424BE2E</string>
+		</dict>
+		<key>7C858F9B-D2BB-462C-9394-E83FD4FE8386</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7C858F9B-D2BB-462C-9394-E83FD4FE8386.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QS_Experiment project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QS_Experiment</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QS_Experiment</string>
+			<key>timeStartedRecording</key>
+			<real>668297730.10019505</real>
+			<key>timeStoppedRecording</key>
+			<real>668297730.55161798</real>
+			<key>title</key>
+			<string>Build QS_Experiment</string>
+			<key>uniqueIdentifier</key>
+			<string>7C858F9B-D2BB-462C-9394-E83FD4FE8386</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
