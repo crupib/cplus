@@ -6,40 +6,6 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>13772CE3-3115-4E17-9C47-72566424BE2E</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>13772CE3-3115-4E17-9C47-72566424BE2E.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>QS_Experiment project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>QS_Experiment</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build QS_Experiment</string>
-			<key>timeStartedRecording</key>
-			<real>668297670.20659399</real>
-			<key>timeStoppedRecording</key>
-			<real>668297671.486305</real>
-			<key>title</key>
-			<string>Build QS_Experiment</string>
-			<key>uniqueIdentifier</key>
-			<string>13772CE3-3115-4E17-9C47-72566424BE2E</string>
-		</dict>
 		<key>7C858F9B-D2BB-462C-9394-E83FD4FE8386</key>
 		<dict>
 			<key>className</key>
@@ -73,6 +39,74 @@
 			<string>Build QS_Experiment</string>
 			<key>uniqueIdentifier</key>
 			<string>7C858F9B-D2BB-462C-9394-E83FD4FE8386</string>
+		</dict>
+		<key>9FEE2C46-0C97-4C6F-BC16-8E9022A7EB8D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9FEE2C46-0C97-4C6F-BC16-8E9022A7EB8D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QS_Experiment project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QS_Experiment</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QS_Experiment</string>
+			<key>timeStartedRecording</key>
+			<real>671205094.133636</real>
+			<key>timeStoppedRecording</key>
+			<real>671205095.71566296</real>
+			<key>title</key>
+			<string>Build QS_Experiment</string>
+			<key>uniqueIdentifier</key>
+			<string>9FEE2C46-0C97-4C6F-BC16-8E9022A7EB8D</string>
+		</dict>
+		<key>FBD5C1A4-710F-40AC-A46B-38164606A003</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FBD5C1A4-710F-40AC-A46B-38164606A003.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QS_Experiment project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QS_Experiment</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QS_Experiment</string>
+			<key>timeStartedRecording</key>
+			<real>671204270.80628097</real>
+			<key>timeStoppedRecording</key>
+			<real>671204277.91782904</real>
+			<key>title</key>
+			<string>Build QS_Experiment</string>
+			<key>uniqueIdentifier</key>
+			<string>FBD5C1A4-710F-40AC-A46B-38164606A003</string>
 		</dict>
 	</dict>
 </dict>

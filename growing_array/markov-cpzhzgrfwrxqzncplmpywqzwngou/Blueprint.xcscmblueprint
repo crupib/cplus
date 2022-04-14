@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "56670090DC71718929388743FD23C4EC8ADB410E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "56670090DC71718929388743FD23C4EC8ADB410E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E71CBE92-C5D6-4E17-AF78-350A270C1339",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "56670090DC71718929388743FD23C4EC8ADB410E" : "cplus\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "markov",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "markov\/markov.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/crupib\/cplus.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "56670090DC71718929388743FD23C4EC8ADB410E"
+    }
+  ]
+}

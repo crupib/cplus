@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>0B115318-01D8-4F77-B443-84E42CB35F48</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0B115318-01D8-4F77-B443-84E42CB35F48.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>foodline project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>foodline</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run foodline</string>
+			<key>timeStartedRecording</key>
+			<real>671328522.86904001</real>
+			<key>timeStoppedRecording</key>
+			<real>671328554.68337405</real>
+			<key>title</key>
+			<string>Run foodline</string>
+			<key>uniqueIdentifier</key>
+			<string>0B115318-01D8-4F77-B443-84E42CB35F48</string>
+		</dict>
+		<key>38B98F5B-C1CD-4149-B306-D61A6A4206EC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>38B98F5B-C1CD-4149-B306-D61A6A4206EC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>foodline project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>foodline</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run foodline</string>
+			<key>timeStartedRecording</key>
+			<real>671328091.44441199</real>
+			<key>timeStoppedRecording</key>
+			<real>671328125.54852498</real>
+			<key>title</key>
+			<string>Run foodline</string>
+			<key>uniqueIdentifier</key>
+			<string>38B98F5B-C1CD-4149-B306-D61A6A4206EC</string>
+		</dict>
+		<key>4C5E82DB-C5F6-44A5-B520-DF7BEE9A2C44</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4C5E82DB-C5F6-44A5-B520-DF7BEE9A2C44.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>foodline project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>foodline</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run foodline</string>
+			<key>timeStartedRecording</key>
+			<real>671207417.82599401</real>
+			<key>timeStoppedRecording</key>
+			<real>671207435.96297705</real>
+			<key>title</key>
+			<string>Run foodline</string>
+			<key>uniqueIdentifier</key>
+			<string>4C5E82DB-C5F6-44A5-B520-DF7BEE9A2C44</string>
+		</dict>
+		<key>4E033419-DE74-4779-B8A2-1ABBE2AC4992</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4E033419-DE74-4779-B8A2-1ABBE2AC4992.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>foodline project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>foodline</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run foodline</string>
+			<key>timeStartedRecording</key>
+			<real>671327929.50242198</real>
+			<key>timeStoppedRecording</key>
+			<real>671327984.13563895</real>
+			<key>title</key>
+			<string>Run foodline</string>
+			<key>uniqueIdentifier</key>
+			<string>4E033419-DE74-4779-B8A2-1ABBE2AC4992</string>
+		</dict>
+		<key>76E7B7BA-12C9-4F20-9E2B-FC244F15E135</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>76E7B7BA-12C9-4F20-9E2B-FC244F15E135.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>foodline project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>foodline</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run foodline</string>
+			<key>timeStartedRecording</key>
+			<real>671328461.59075797</real>
+			<key>timeStoppedRecording</key>
+			<real>671328506.07816505</real>
+			<key>title</key>
+			<string>Run foodline</string>
+			<key>uniqueIdentifier</key>
+			<string>76E7B7BA-12C9-4F20-9E2B-FC244F15E135</string>
+		</dict>
+		<key>DA122C47-5D88-4B29-A9F0-E7BA77329FAF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DA122C47-5D88-4B29-A9F0-E7BA77329FAF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>foodline project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>foodline</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run foodline</string>
+			<key>timeStartedRecording</key>
+			<real>671328320.56703901</real>
+			<key>timeStoppedRecording</key>
+			<real>671328335.52235401</real>
+			<key>title</key>
+			<string>Run foodline</string>
+			<key>uniqueIdentifier</key>
+			<string>DA122C47-5D88-4B29-A9F0-E7BA77329FAF</string>
+		</dict>
+		<key>E1CE61BA-9A0D-450F-AFA7-B75E5BCB57D9</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E1CE61BA-9A0D-450F-AFA7-B75E5BCB57D9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>foodline project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>foodline</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run foodline</string>
+			<key>timeStartedRecording</key>
+			<real>671328156.54885197</real>
+			<key>timeStoppedRecording</key>
+			<real>671328195.613603</real>
+			<key>title</key>
+			<string>Run foodline</string>
+			<key>uniqueIdentifier</key>
+			<string>E1CE61BA-9A0D-450F-AFA7-B75E5BCB57D9</string>
+		</dict>
+		<key>E2434757-B0FF-42D2-8614-646C60DBB3FA</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E2434757-B0FF-42D2-8614-646C60DBB3FA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>foodline project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>foodline</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run foodline</string>
+			<key>timeStartedRecording</key>
+			<real>671327779.136832</real>
+			<key>timeStoppedRecording</key>
+			<real>671327927.150316</real>
+			<key>title</key>
+			<string>Run foodline</string>
+			<key>uniqueIdentifier</key>
+			<string>E2434757-B0FF-42D2-8614-646C60DBB3FA</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

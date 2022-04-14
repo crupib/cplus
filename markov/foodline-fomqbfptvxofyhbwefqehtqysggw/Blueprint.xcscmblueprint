@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "56670090DC71718929388743FD23C4EC8ADB410E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "56670090DC71718929388743FD23C4EC8ADB410E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "29DC56B5-7EF5-4E47-A352-F74076F0BE9A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "56670090DC71718929388743FD23C4EC8ADB410E" : "cplus\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "foodline",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "foodline\/foodline\/foodline.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/crupib\/cplus.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "56670090DC71718929388743FD23C4EC8ADB410E"
+    }
+  ]
+}

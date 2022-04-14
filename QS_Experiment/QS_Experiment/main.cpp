@@ -43,19 +43,19 @@ int main(int argc, char const *argv[])
         t = clock();
         qsort(arr, N, sizeof(arr[0]), icmp);
         t = clock() - t;
-        if (t > last)
-        {
-            printf("t: %lu > last: %lu\n", t, last);
-            last = t;
-            for (size_t i = 0; i < N; i++)
-            {
-                result[i] = before[i];
-            }
-        }
+//      if (t > last)
+//        {
+//            printf("t: %lu > last: %lu\n", t, last);
+//            last = t;
+//            for (size_t i = 0; i < N; i++)
+//            {
+//                result[i] = before[i];
+//            }
+//        }
     }
 
-    for (size_t i = 0; i < N; i++)
-        printf("%d ", result[i]);
+//    for (size_t i = 0; i < N; i++)
+//        printf("%d ", result[i]);
 
     printf("\nIt took %lu clocks (%f seconds).\n", last, ((float)last) / CLOCKS_PER_SEC);
 
