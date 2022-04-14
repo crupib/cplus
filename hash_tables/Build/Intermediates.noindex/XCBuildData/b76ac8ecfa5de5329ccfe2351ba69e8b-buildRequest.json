@@ -1,0 +1,57 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "2c8e4b5445131672b3778d841f0a0a83ad7f66183a1ac6b77a020ec354928969"
+    }
+  ],
+  "containerPath" : "/Users/williamcrupi/Documents/github/cplus/hash_tables/hash_tables.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/williamcrupi/Documents/github/cplus/hash_tables/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/williamcrupi/Documents/github/cplus/hash_tables/Build/Products",
+      "derivedDataPath" : "/Users/williamcrupi/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/williamcrupi/Library/Developer/Xcode/DerivedData/hash_tables-fmiuijgnvupmnietygozpgmsynin/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/williamcrupi/Library/Developer/Xcode/DerivedData/hash_tables-fmiuijgnvupmnietygozpgmsynin/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/williamcrupi/Documents/github/cplus/hash_tables/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
