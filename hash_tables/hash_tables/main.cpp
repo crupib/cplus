@@ -71,10 +71,12 @@ void identify_identical(snowflake_node *snowflakes[]) {
 }
 
 int main(void) {
- static snowflake_node *snowflakes[SIZE] = {NULL};
+  static snowflake_node *snowflakes[SIZE] = {NULL};
   snowflake_node *snow;
   int n, i, j, snowflake_code;
+    
   scanf("%d", &n);
+    
   for (i = 0; i < n; i++) {
     //snow = (snowflake_node) malloc(sizeof(snowflake_node));
     snow = new snowflake_node;
@@ -84,12 +86,12 @@ int main(void) {
     }
     for (j = 0; j < 6; j++)
       scanf("%d", &snow->snowflake[j]);
+      
     snowflake_code = code(snow->snowflake);
     snow->next = snowflakes[snowflake_code];
     snowflakes[snowflake_code] = snow;
-      free(snow);
+    free(snow);
   }
   identify_identical(snowflakes);
-  //deallocate all malloc'd memory, if you want to be good
   return 0;
 }
