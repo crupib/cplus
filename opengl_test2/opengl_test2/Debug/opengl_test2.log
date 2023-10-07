@@ -1,0 +1,16 @@
+﻿  opengl_test2.cpp
+opengl_test2.obj : error LNK2019: unresolved external symbol __imp__glClear@4 referenced in function _main
+opengl_test2.obj : error LNK2019: unresolved external symbol __imp__glClearColor@16 referenced in function _main
+opengl_test2.obj : error LNK2019: unresolved external symbol __imp__glViewport@16 referenced in function _main
+opengl_test2.obj : error LNK2019: unresolved external symbol _glewInit@0 referenced in function _main
+opengl_test2.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+opengl_test2.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _main
+opengl_test2.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function _main
+opengl_test2.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+opengl_test2.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+opengl_test2.obj : error LNK2019: unresolved external symbol _glfwGetFramebufferSize referenced in function _main
+opengl_test2.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+opengl_test2.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _main
+opengl_test2.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+opengl_test2.obj : error LNK2001: unresolved external symbol _glewExperimental
+C:\Users\crupi\source\repos\opengl_test2\Debug\opengl_test2.exe : fatal error LNK1120: 14 unresolved externals
