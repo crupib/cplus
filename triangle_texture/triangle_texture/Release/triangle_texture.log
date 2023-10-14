@@ -1,0 +1,4 @@
+﻿LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+triangle.obj : error LNK2001: unresolved external symbol _SOIL_free_image_data
+triangle.obj : error LNK2001: unresolved external symbol _SOIL_load_image
+C:\Users\crupi\source\repos\cplus\triangle_texture\Release\triangle_texture.exe : fatal error LNK1120: 2 unresolved externals

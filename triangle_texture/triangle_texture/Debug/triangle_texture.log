@@ -1,0 +1,7 @@
+﻿  triangle.cpp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+triangle.obj : error LNK2019: unresolved external symbol _SOIL_load_image referenced in function _main
+triangle.obj : error LNK2019: unresolved external symbol _SOIL_free_image_data referenced in function _main
+C:\Users\crupi\source\repos\cplus\triangle_texture\lib\windows\soil2-debug.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\crupi\source\repos\cplus\triangle_texture\Debug\triangle_texture.exe : fatal error LNK1120: 2 unresolved externals
