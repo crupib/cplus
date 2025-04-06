@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/Users/williamcrupi/Documents/github/cplus/editor/cmake-build-debug",
+	"dir-cur-src" : "/Users/williamcrupi/Documents/github/cplus/editor",
+	"dir-top-bld" : "/Users/williamcrupi/Documents/github/cplus/editor/cmake-build-debug",
+	"dir-top-src" : "/Users/williamcrupi/Documents/github/cplus/editor",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/Users/williamcrupi/Documents/github/cplus/editor/cmake-build-debug/CMakeFiles/editor.dir"
+}

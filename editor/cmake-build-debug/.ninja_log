@@ -1,0 +1,13 @@
+# ninja log v6
+0	73	1743953969539363237	CMakeFiles/editor.dir/main.cpp.o.ddi	891974c6380a77ed
+73	81	1743953969619274689	CMakeFiles/editor.dir/CXX.dd	11ae956c81984d3a
+73	81	1743953969619274689	/Users/williamcrupi/Documents/github/cplus/editor/cmake-build-debug/CMakeFiles/editor.dir/CXXModules.json	11ae956c81984d3a
+73	81	1743953969619274689	CMakeFiles/editor.dir/main.cpp.o.modmap	11ae956c81984d3a
+81	474	1743953969619688984	CMakeFiles/editor.dir/main.cpp.o	31346148cf547a91
+475	522	1743953970013947669	editor	818d0d728f48962e
+5	204	1743954356757118284	CMakeFiles/editor.dir/main.cpp.o.ddi	891974c6380a77ed
+204	214	1743954356955777657	CMakeFiles/editor.dir/CXX.dd	11ae956c81984d3a
+204	214	1743954356955777657	/Users/williamcrupi/Documents/github/cplus/editor/cmake-build-debug/CMakeFiles/editor.dir/CXXModules.json	11ae956c81984d3a
+204	214	1743954356955777657	CMakeFiles/editor.dir/main.cpp.o.modmap	11ae956c81984d3a
+214	765	1743954356965555974	CMakeFiles/editor.dir/main.cpp.o	31346148cf547a91
+765	819	1743954357516765963	editor	818d0d728f48962e

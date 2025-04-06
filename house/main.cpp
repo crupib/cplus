@@ -13,6 +13,7 @@ public:
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
+/*
     House myHouse;
     myHouse.height = 100;
     myHouse.width = 200;
@@ -23,13 +24,13 @@ int main() {
     cout << "Width: " << myHouse.width << endl;
     cout << "Color: " << myHouse.color << endl;
     cout << "Size: " << myHouse.size << endl;
-    string fruit[3] = {"apple", "banana","cherry"};
+    string fruit[3] = {"apple", "banana", "cherry"};
     for (const auto &i: fruit)
         cout << i << " ";
     cout << endl;
     char str[] = "good";
     for (int i = 0; i < 4; i++)
-        cout << str[i] ;
+        cout << str[i];
     cout << endl;
     char ch = 'C';
     cout.put(ch) << endl;
@@ -41,14 +42,20 @@ int main() {
 //    getline(cin, myString);
 //    cout << myString << endl;
     ofstream fileObj("../myFile.txt");
-    string myString1 = "C++ is a very good Language.";
-    fileObj << myString1 << endl;
+ //   string myString1 = "C++ is a very good Language.";
+ //   fileObj << myString1 << endl;
+ //   fileObj.close();
+ //   cout << "Write to file successfully!" << endl;
+ */
+    char ch;
+    ifstream fileObj("../myFile.txt");
+    while (!fileObj.eof()) {
+        fileObj.get(ch);
+        cout << ch;
+    }
+//    getline(fileObj1,myString1);
+//    cout << myString1 << endl;
     fileObj.close();
-    cout << "Write to file successfully!" << endl;
-    ifstream fileObj1("../myFile.txt");
-    getline(fileObj1,myString1);
-    cout << myString1 << endl;
-    fileObj1.close();
     return 0;
 }
 
