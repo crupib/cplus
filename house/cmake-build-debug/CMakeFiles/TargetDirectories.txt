@@ -1,0 +1,3 @@
+/Users/williamcrupi/Documents/github/cplus/house/cmake-build-debug/CMakeFiles/house.dir
+/Users/williamcrupi/Documents/github/cplus/house/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/williamcrupi/Documents/github/cplus/house/cmake-build-debug/CMakeFiles/rebuild_cache.dir
