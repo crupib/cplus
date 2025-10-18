@@ -13,10 +13,35 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{5741c9af-df36-492a-b084-c8ba02758438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\shader">
+      <UniqueIdentifier>{c9041b68-5982-4b0f-8692-ad194cf2be03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\images">
+      <UniqueIdentifier>{b4ad0082-d7f4-4097-8cbd-4821565048ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\images\videos">
+      <UniqueIdentifier>{60716805-6c44-4137-b78c-cd69edca8769}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="triangle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="core.frag">
+      <Filter>resources\shader</Filter>
+    </None>
+    <None Include="core.vs">
+      <Filter>resources\shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
