@@ -5,6 +5,7 @@
 	"compiler-simulate-id" : "",
 	"config" : "Debug",
 	"cxx-modules" : {},
+	"database-info" : null,
 	"dir-cur-bld" : "/Users/williamcrupi/Documents/github/cplus/this_member/cmake-build-debug",
 	"dir-cur-src" : "/Users/williamcrupi/Documents/github/cplus/this_member",
 	"dir-top-bld" : "/Users/williamcrupi/Documents/github/cplus/this_member/cmake-build-debug",
@@ -14,5 +15,13 @@
 	"include-dirs" : [],
 	"language" : "CXX",
 	"linked-target-dirs" : [],
-	"module-dir" : "/Users/williamcrupi/Documents/github/cplus/this_member/cmake-build-debug/CMakeFiles/this_member.dir"
+	"module-dir" : "/Users/williamcrupi/Documents/github/cplus/this_member/cmake-build-debug/CMakeFiles/this_member.dir",
+	"sources" : 
+	{
+		"CMakeFiles/this_member.dir/main.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/Users/williamcrupi/Documents/github/cplus/this_member/main.cpp"
+		}
+	}
 }

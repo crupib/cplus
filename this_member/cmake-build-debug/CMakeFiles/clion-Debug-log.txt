@@ -1,4 +1,15 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -DCMAKE_C_COMPILER=/opt/homebrew/Cellar/llvm/19.1.7_1/bin/clang -DCMAKE_CXX_COMPILER=/opt/homebrew/Cellar/llvm/19.1.7_1/bin/clang++ -G Ninja -S /Users/williamcrupi/Documents/github/cplus/this_member -B /Users/williamcrupi/Documents/github/cplus/this_member/cmake-build-debug
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.31/Modules/Platform/Darwin-Initialize.cmake:311 (message):
+  Ignoring CMAKE_OSX_SYSROOT value:
+
+   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+
+  because the directory does not exist.
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake:34 (include)
+  CMakeLists.txt:2 (project)
+
+
 -- The C compiler identification is Clang 19.1.7
 -- The CXX compiler identification is Clang 19.1.7
 -- Detecting C compiler ABI info
@@ -11,6 +22,6 @@
 -- Check for working CXX compiler: /opt/homebrew/Cellar/llvm/19.1.7_1/bin/clang++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Configuring done (0.6s)
+-- Configuring done (2.8s)
 -- Generating done (0.0s)
 -- Build files have been written to: /Users/williamcrupi/Documents/github/cplus/this_member/cmake-build-debug
