@@ -1,0 +1,38 @@
+﻿  triangle.cpp
+triangle.obj : error LNK2019: unresolved external symbol __imp_glClear referenced in function main
+triangle.obj : error LNK2019: unresolved external symbol __imp_glClearColor referenced in function main
+triangle.obj : error LNK2019: unresolved external symbol __imp_glDrawArrays referenced in function main
+triangle.obj : error LNK2019: unresolved external symbol __imp_glViewport referenced in function main
+triangle.obj : error LNK2019: unresolved external symbol glewInit referenced in function main
+triangle.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+triangle.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+triangle.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
+triangle.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+triangle.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+triangle.obj : error LNK2019: unresolved external symbol glfwGetFramebufferSize referenced in function main
+triangle.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+triangle.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+triangle.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+triangle.obj : error LNK2001: unresolved external symbol __glewBindBuffer
+triangle.obj : error LNK2001: unresolved external symbol __glewBufferData
+triangle.obj : error LNK2001: unresolved external symbol __glewDeleteBuffers
+triangle.obj : error LNK2001: unresolved external symbol __glewGenBuffers
+triangle.obj : error LNK2001: unresolved external symbol __glewAttachShader
+triangle.obj : error LNK2001: unresolved external symbol __glewCompileShader
+triangle.obj : error LNK2001: unresolved external symbol __glewCreateProgram
+triangle.obj : error LNK2001: unresolved external symbol __glewCreateShader
+triangle.obj : error LNK2001: unresolved external symbol __glewDeleteShader
+triangle.obj : error LNK2001: unresolved external symbol __glewEnableVertexAttribArray
+triangle.obj : error LNK2001: unresolved external symbol __glewGetProgramInfoLog
+triangle.obj : error LNK2001: unresolved external symbol __glewGetProgramiv
+triangle.obj : error LNK2001: unresolved external symbol __glewGetShaderInfoLog
+triangle.obj : error LNK2001: unresolved external symbol __glewGetShaderiv
+triangle.obj : error LNK2001: unresolved external symbol __glewLinkProgram
+triangle.obj : error LNK2001: unresolved external symbol __glewShaderSource
+triangle.obj : error LNK2001: unresolved external symbol __glewUseProgram
+triangle.obj : error LNK2001: unresolved external symbol __glewVertexAttribPointer
+triangle.obj : error LNK2001: unresolved external symbol __glewBindVertexArray
+triangle.obj : error LNK2001: unresolved external symbol __glewDeleteVertexArrays
+triangle.obj : error LNK2001: unresolved external symbol __glewGenVertexArrays
+triangle.obj : error LNK2001: unresolved external symbol glewExperimental
+C:\Users\crupi\source\repos\triangle_abstract\x64\Debug\triangle_abstract.exe : fatal error LNK1120: 36 unresolved externals

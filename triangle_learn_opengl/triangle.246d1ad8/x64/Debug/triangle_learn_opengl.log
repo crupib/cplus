@@ -1,0 +1,5 @@
+﻿  triangle.cpp
+C:\Users\crupi\source\repos\triangle_learn_opengl\triangle.cpp(27,9): warning C4101: 'screenWidth': unreferenced local variable
+C:\Users\crupi\source\repos\triangle_learn_opengl\triangle.cpp(27,22): warning C4101: 'screenHeight': unreferenced local variable
+glew32s.lib(glew.obj) : warning LNK4099: PDB '' was not found with 'glew32s.lib(glew.obj)' or at ''; linking object as if no debug info
+  triangle_learn_opengl.vcxproj -> C:\Users\crupi\source\repos\triangle_learn_opengl\x64\Debug\triangle_learn_opengl.exe
