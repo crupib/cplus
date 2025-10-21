@@ -4,3 +4,7 @@ ModuleCache.noindex
 **/saved*
 **/search-*
 data.mdb
+.vs/
+*.ipch
+*.VC.db
+
