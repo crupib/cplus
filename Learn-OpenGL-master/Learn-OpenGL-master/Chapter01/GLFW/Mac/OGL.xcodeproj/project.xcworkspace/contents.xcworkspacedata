@@ -2,6 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/GLFW/Mac/OGL.xcodeproj/project.xcworkspace/contents.xcworkspacedata
       location = "self:OGL.xcodeproj">
+========
+      location = "self:SDLOpenGL.xcodeproj">
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/project.xcworkspace/contents.xcworkspacedata
    </FileRef>
 </Workspace>

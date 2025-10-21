@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/project.pbxproj
 		5B1656451D6B0A92009B1AF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B1656441D6B0A92009B1AF7 /* main.cpp */; };
 		5B16564C1D6B0AA1009B1AF7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B16564B1D6B0AA1009B1AF7 /* OpenGL.framework */; };
 		5B16564F1D6B0D15009B1AF7 /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B16564D1D6B0B86009B1AF7 /* libSDL2-2.0.0.dylib */; };
@@ -15,6 +16,16 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		5B16563F1D6B0A92009B1AF7 /* CopyFiles */ = {
+========
+		EEB1155A1C9624500098D59A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEB115591C9624500098D59A /* main.cpp */; };
+		EEB115611C96249A0098D59A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB115601C96249A0098D59A /* OpenGL.framework */; };
+		EEB115631C96266C0098D59A /* libGLEW.1.12.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB115621C96266C0098D59A /* libGLEW.1.12.0.dylib */; };
+		EEB115651C96267E0098D59A /* libglfw3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB115641C96267E0098D59A /* libglfw3.3.1.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EEB115541C9624500098D59A /* CopyFiles */ = {
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/GLFW/Mac/OGL.xcodeproj/project.pbxproj
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -26,6 +37,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/project.pbxproj
 		5B1656411D6B0A92009B1AF7 /* SDLOpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SDLOpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B1656441D6B0A92009B1AF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5B16564B1D6B0AA1009B1AF7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -41,12 +53,30 @@
 				5B1656511D6B0F96009B1AF7 /* libGLEW.2.0.0.dylib in Frameworks */,
 				5B16564F1D6B0D15009B1AF7 /* libSDL2-2.0.0.dylib in Frameworks */,
 				5B16564C1D6B0AA1009B1AF7 /* OpenGL.framework in Frameworks */,
+========
+		EEB115561C9624500098D59A /* OGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OGL; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB115591C9624500098D59A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EEB115601C96249A0098D59A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		EEB115621C96266C0098D59A /* libGLEW.1.12.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.1.12.0.dylib; path = ../../../../usr/local/Cellar/glew/1.12.0/lib/libGLEW.1.12.0.dylib; sourceTree = "<group>"; };
+		EEB115641C96267E0098D59A /* libglfw3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw3.3.1.dylib; path = ../../../../usr/local/Cellar/glfw3/3.1.2/lib/libglfw3.3.1.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB115531C9624500098D59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB115651C96267E0098D59A /* libglfw3.3.1.dylib in Frameworks */,
+				EEB115631C96266C0098D59A /* libGLEW.1.12.0.dylib in Frameworks */,
+				EEB115611C96249A0098D59A /* OpenGL.framework in Frameworks */,
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/GLFW/Mac/OGL.xcodeproj/project.pbxproj
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/project.pbxproj
 		5B1656381D6B0A92009B1AF7 = {
 			isa = PBXGroup;
 			children = (
@@ -62,21 +92,48 @@
 			isa = PBXGroup;
 			children = (
 				5B1656411D6B0A92009B1AF7 /* SDLOpenGL */,
+========
+		EEB1154D1C9624500098D59A = {
+			isa = PBXGroup;
+			children = (
+				EEB115641C96267E0098D59A /* libglfw3.3.1.dylib */,
+				EEB115621C96266C0098D59A /* libGLEW.1.12.0.dylib */,
+				EEB115601C96249A0098D59A /* OpenGL.framework */,
+				EEB115581C9624500098D59A /* OGL */,
+				EEB115571C9624500098D59A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB115571C9624500098D59A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB115561C9624500098D59A /* OGL */,
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/GLFW/Mac/OGL.xcodeproj/project.pbxproj
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/project.pbxproj
 		5B1656431D6B0A92009B1AF7 /* SDLOpenGL */ = {
 			isa = PBXGroup;
 			children = (
 				5B1656441D6B0A92009B1AF7 /* main.cpp */,
 			);
 			path = SDLOpenGL;
+========
+		EEB115581C9624500098D59A /* OGL */ = {
+			isa = PBXGroup;
+			children = (
+				EEB115591C9624500098D59A /* main.cpp */,
+			);
+			path = OGL;
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/GLFW/Mac/OGL.xcodeproj/project.pbxproj
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/project.pbxproj
 		5B1656401D6B0A92009B1AF7 /* SDLOpenGL */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B1656481D6B0A92009B1AF7 /* Build configuration list for PBXNativeTarget "SDLOpenGL" */;
@@ -84,19 +141,35 @@
 				5B16563D1D6B0A92009B1AF7 /* Sources */,
 				5B16563E1D6B0A92009B1AF7 /* Frameworks */,
 				5B16563F1D6B0A92009B1AF7 /* CopyFiles */,
+========
+		EEB115551C9624500098D59A /* OGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB1155D1C9624500098D59A /* Build configuration list for PBXNativeTarget "OGL" */;
+			buildPhases = (
+				EEB115521C9624500098D59A /* Sources */,
+				EEB115531C9624500098D59A /* Frameworks */,
+				EEB115541C9624500098D59A /* CopyFiles */,
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/GLFW/Mac/OGL.xcodeproj/project.pbxproj
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/project.pbxproj
 			name = SDLOpenGL;
 			productName = SDLOpenGL;
 			productReference = 5B1656411D6B0A92009B1AF7 /* SDLOpenGL */;
+========
+			name = OGL;
+			productName = OGL;
+			productReference = EEB115561C9624500098D59A /* OGL */;
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/GLFW/Mac/OGL.xcodeproj/project.pbxproj
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/project.pbxproj
 		5B1656391D6B0A92009B1AF7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
@@ -109,39 +182,77 @@
 				};
 			};
 			buildConfigurationList = 5B16563C1D6B0A92009B1AF7 /* Build configuration list for PBXProject "SDLOpenGL" */;
+========
+		EEB1154E1C9624500098D59A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sonar Systems";
+				TargetAttributes = {
+					EEB115551C9624500098D59A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EEB115511C9624500098D59A /* Build configuration list for PBXProject "OGL" */;
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/GLFW/Mac/OGL.xcodeproj/project.pbxproj
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/project.pbxproj
 			mainGroup = 5B1656381D6B0A92009B1AF7;
 			productRefGroup = 5B1656421D6B0A92009B1AF7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5B1656401D6B0A92009B1AF7 /* SDLOpenGL */,
+========
+			mainGroup = EEB1154D1C9624500098D59A;
+			productRefGroup = EEB115571C9624500098D59A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB115551C9624500098D59A /* OGL */,
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/GLFW/Mac/OGL.xcodeproj/project.pbxproj
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/project.pbxproj
 		5B16563D1D6B0A92009B1AF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5B1656451D6B0A92009B1AF7 /* main.cpp in Sources */,
+========
+		EEB115521C9624500098D59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB1155A1C9624500098D59A /* main.cpp in Sources */,
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/GLFW/Mac/OGL.xcodeproj/project.pbxproj
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/project.pbxproj
 		5B1656461D6B0A92009B1AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+========
+		EEB1155B1C9624500098D59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/GLFW/Mac/OGL.xcodeproj/project.pbxproj
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -181,11 +292,18 @@
 			};
 			name = Debug;
 		};
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/project.pbxproj
 		5B1656471D6B0A92009B1AF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+========
+		EEB1155C1C9624500098D59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/GLFW/Mac/OGL.xcodeproj/project.pbxproj
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -218,25 +336,45 @@
 			};
 			name = Release;
 		};
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/project.pbxproj
 		5B1656491D6B0A92009B1AF7 /* Debug */ = {
+========
+		EEB1155E1C9624500098D59A /* Debug */ = {
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/GLFW/Mac/OGL.xcodeproj/project.pbxproj
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = (
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/project.pbxproj
 					/usr/local/Cellar/sdl2/2.0.4/lib,
 					/usr/local/Cellar/glew/2.0.0/lib,
+========
+					"$(inherited)",
+					/usr/local/Cellar/glew/1.12.0/lib,
+					/usr/local/Cellar/glfw3/3.1.2/lib,
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/GLFW/Mac/OGL.xcodeproj/project.pbxproj
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/project.pbxproj
 		5B16564A1D6B0A92009B1AF7 /* Release */ = {
+========
+		EEB1155F1C9624500098D59A /* Release */ = {
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/GLFW/Mac/OGL.xcodeproj/project.pbxproj
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = (
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/project.pbxproj
 					/usr/local/Cellar/sdl2/2.0.4/lib,
 					/usr/local/Cellar/glew/2.0.0/lib,
+========
+					"$(inherited)",
+					/usr/local/Cellar/glew/1.12.0/lib,
+					/usr/local/Cellar/glfw3/3.1.2/lib,
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/GLFW/Mac/OGL.xcodeproj/project.pbxproj
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -245,24 +383,44 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/project.pbxproj
 		5B16563C1D6B0A92009B1AF7 /* Build configuration list for PBXProject "SDLOpenGL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B1656461D6B0A92009B1AF7 /* Debug */,
 				5B1656471D6B0A92009B1AF7 /* Release */,
+========
+		EEB115511C9624500098D59A /* Build configuration list for PBXProject "OGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB1155B1C9624500098D59A /* Debug */,
+				EEB1155C1C9624500098D59A /* Release */,
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/GLFW/Mac/OGL.xcodeproj/project.pbxproj
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/project.pbxproj
 		5B1656481D6B0A92009B1AF7 /* Build configuration list for PBXNativeTarget "SDLOpenGL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B1656491D6B0A92009B1AF7 /* Debug */,
 				5B16564A1D6B0A92009B1AF7 /* Release */,
+========
+		EEB1155D1C9624500098D59A /* Build configuration list for PBXNativeTarget "OGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB1155E1C9624500098D59A /* Debug */,
+				EEB1155F1C9624500098D59A /* Release */,
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/GLFW/Mac/OGL.xcodeproj/project.pbxproj
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/project.pbxproj
 	rootObject = 5B1656391D6B0A92009B1AF7 /* Project object */;
+========
+	rootObject = EEB1154E1C9624500098D59A /* Project object */;
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/GLFW/Mac/OGL.xcodeproj/project.pbxproj
 }

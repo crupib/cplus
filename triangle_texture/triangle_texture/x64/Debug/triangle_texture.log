@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 ﻿  triangle_texture.vcxproj -> C:\Users\crupi\source\repos\cplus\triangle_texture\x64\Debug\triangle_texture.exe
+=======
+﻿  triangle.cpp
+  triangle_texture.vcxproj -> C:\Users\crupi\source\repos\cplus\triangle_texture\x64\Debug\triangle_texture.exe
+>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928

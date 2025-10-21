@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\crupi\\source\\repos\\cplus\\triangle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D02DB43-146F-4E6B-AB78-5E5A751C2035}|triangle\\triangle.vcxproj|C:\\Users\\crupi\\source\\repos\\cplus\\triangle\\triangle\\core.vs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5D02DB43-146F-4E6B-AB78-5E5A751C2035}|triangle\\triangle.vcxproj|solutionrelative:triangle\\core.vs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D02DB43-146F-4E6B-AB78-5E5A751C2035}|triangle\\triangle.vcxproj|C:\\Users\\crupi\\source\\repos\\cplus\\triangle\\triangle\\core.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5D02DB43-146F-4E6B-AB78-5E5A751C2035}|triangle\\triangle.vcxproj|solutionrelative:triangle\\core.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "core.vs",
+              "DocumentMoniker": "C:\\Users\\crupi\\source\\repos\\cplus\\triangle\\triangle\\core.vs",
+              "RelativeDocumentMoniker": "triangle\\core.vs",
+              "ToolTip": "C:\\Users\\crupi\\source\\repos\\cplus\\triangle\\triangle\\core.vs \u2B24",
+              "RelativeToolTip": "triangle\\core.vs \u2B24",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-18T18:03:53.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "core.frag",
+              "DocumentMoniker": "C:\\Users\\crupi\\source\\repos\\cplus\\triangle\\triangle\\core.frag",
+              "RelativeDocumentMoniker": "triangle\\core.frag",
+              "ToolTip": "C:\\Users\\crupi\\source\\repos\\cplus\\triangle\\triangle\\core.frag",
+              "RelativeToolTip": "triangle\\core.frag",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-18T18:00:13.962Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

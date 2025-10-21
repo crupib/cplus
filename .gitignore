@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+=======
+ModuleCache.noindex
+**/SymbolCache.noindex
+**/Unsaved*
+**/saved*
+**/search-*
+data.mdb
+>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928
 .vs/
 *.ipch
 *.VC.db

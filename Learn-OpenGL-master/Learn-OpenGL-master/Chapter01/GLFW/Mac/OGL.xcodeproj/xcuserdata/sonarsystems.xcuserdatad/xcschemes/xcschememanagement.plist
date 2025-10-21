@@ -4,7 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/GLFW/Mac/OGL.xcodeproj/xcuserdata/sonarsystems.xcuserdatad/xcschemes/xcschememanagement.plist
 		<key>OGL.xcscheme</key>
+========
+		<key>SDLOpenGL.xcscheme</key>
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/xcuserdata/FrahaanHussain.xcuserdatad/xcschemes/xcschememanagement.plist
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +16,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+<<<<<<<< HEAD:Learn-OpenGL-master/Learn-OpenGL-master/Chapter01/GLFW/Mac/OGL.xcodeproj/xcuserdata/sonarsystems.xcuserdatad/xcschemes/xcschememanagement.plist
 		<key>EEB115551C9624500098D59A</key>
+========
+		<key>5B1656401D6B0A92009B1AF7</key>
+>>>>>>>> f8b69981ede8ca74a001793fd35b6589650b7928:Learn-OpenGL/Chapter01/SDL/Mac/SDLOpenGL.xcodeproj/xcuserdata/FrahaanHussain.xcuserdatad/xcschemes/xcschememanagement.plist
 		<dict>
 			<key>primary</key>
 			<true/>
