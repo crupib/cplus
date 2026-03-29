@@ -1,0 +1,14 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\crupi\source\repos\cplus\getdevattr>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\bin\nvcc.exe" -gencode=arch=compute_75,code=\"sm_75,compute_75\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\include" -I"C:\Users\crupi\vcpkg\installed\x64-windows\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\include"  -G   --keep-dir getdevattr\x64\Debug  -maxrregcount=0    --machine 64 --compile -cudart hybrid  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdgetdevattr\x64\Debug\vc145.pdb" -o C:\Users\crupi\source\repos\cplus\getdevattr\getdevattr\x64\Debug\kernel.cu.obj "C:\Users\crupi\source\repos\cplus\getdevattr\kernel.cu" 
+  kernel.cu
+  tmpxft_00001b50_00000000-7_kernel.cudafe1.cpp
+C:\Users\crupi\source\repos\cplus\getdevattr\kernel.cu(22): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'size_t'
+  C:\Users\crupi\source\repos\cplus\getdevattr\kernel.cu(22): note: consider using '%zd' in the format string
+C:\Users\crupi\source\repos\cplus\getdevattr\kernel.cu(23): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'size_t'
+  C:\Users\crupi\source\repos\cplus\getdevattr\kernel.cu(23): note: consider using '%zd' in the format string
+C:\Users\crupi\source\repos\cplus\getdevattr\kernel.cu(24): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'size_t'
+  C:\Users\crupi\source\repos\cplus\getdevattr\kernel.cu(24): note: consider using '%zd' in the format string
+C:\Users\crupi\source\repos\cplus\getdevattr\kernel.cu(27): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'size_t'
+  C:\Users\crupi\source\repos\cplus\getdevattr\kernel.cu(27): note: consider using '%zd' in the format string
+  getdevattr.vcxproj -> C:\Users\crupi\source\repos\cplus\getdevattr\x64\Debug\getdevattr.exe

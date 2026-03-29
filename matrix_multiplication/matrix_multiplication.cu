@@ -3,10 +3,11 @@
 #include <time.h>
 #include <cuda_runtime.h>
 
+
 // CUDA kernel for matrix multiplication
 __global__ void multKernel(int* C, const int* A, const int* B, unsigned int width)
 {
-    int row = blockIdx.y * blockDim.y + threadIdx.y;
+    int row =  blockIdx.y * blockDim.y + threadIdx.y;
     int col = blockIdx.x * blockDim.x + threadIdx.x;
 
     if (row < width && col < width)
@@ -20,67 +21,89 @@ __global__ void multKernel(int* C, const int* A, const int* B, unsigned int widt
     }
 }
 
-// Drop-in function (same signature as original)
 cudaError_t multWithCuda(int* c, const int* a, const int* b, unsigned int size)
 {
-    int* dev_a = 0;
-    int* dev_b = 0;
-    int* dev_c = 0;
-    cudaError_t cudaStatus;
+    int* dev_a = nullptr;
+    int* dev_b = nullptr;
+    int* dev_c = nullptr;
 
     unsigned int width = size;
     unsigned int total = width * width;
 
-    cudaStatus = cudaSetDevice(0);
-    if (cudaStatus != cudaSuccess) {
+    cudaError_t status;
+
+    // Helper cleanup lambda
+    auto cleanup = [&]() {
+        cudaFree(dev_c);
+        cudaFree(dev_a);
+        cudaFree(dev_b);
+        };
+
+    // Set device
+    status = cudaSetDevice(0);
+    if (status != cudaSuccess) {
         fprintf(stderr, "cudaSetDevice failed!\n");
-        goto Error;
+        return status;
     }
 
-    cudaStatus = cudaMalloc((void**)&dev_c, total * sizeof(int));
-    if (cudaStatus != cudaSuccess) goto Error;
+    // Allocate memory
+    if ((status = cudaMalloc((void**)&dev_c, total * sizeof(int))) != cudaSuccess) {
+        cleanup();
+        return status;
+    }
 
-    cudaStatus = cudaMalloc((void**)&dev_a, total * sizeof(int));
-    if (cudaStatus != cudaSuccess) goto Error;
+    if ((status = cudaMalloc((void**)&dev_a, total * sizeof(int))) != cudaSuccess) {
+        cleanup();
+        return status;
+    }
 
-    cudaStatus = cudaMalloc((void**)&dev_b, total * sizeof(int));
-    if (cudaStatus != cudaSuccess) goto Error;
+    if ((status = cudaMalloc((void**)&dev_b, total * sizeof(int))) != cudaSuccess) {
+        cleanup();
+        return status;
+    }
 
-    cudaStatus = cudaMemcpy(dev_a, a, total * sizeof(int), cudaMemcpyHostToDevice);
-    if (cudaStatus != cudaSuccess) goto Error;
+    // Copy inputs
+    if ((status = cudaMemcpy(dev_a, a, total * sizeof(int), cudaMemcpyHostToDevice)) != cudaSuccess) {
+        cleanup();
+        return status;
+    }
 
-    cudaStatus = cudaMemcpy(dev_b, b, total * sizeof(int), cudaMemcpyHostToDevice);
-    if (cudaStatus != cudaSuccess) goto Error;
+    if ((status = cudaMemcpy(dev_b, b, total * sizeof(int), cudaMemcpyHostToDevice)) != cudaSuccess) {
+        cleanup();
+        return status;
+    }
 
     // Launch kernel
     dim3 threadsPerBlock(16, 16);
     dim3 blocksPerGrid((width + 15) / 16, (width + 15) / 16);
+    multKernel <<< blocksPerGrid, threadsPerBlock >>> (dev_c, dev_a, dev_b, width);
 
-    multKernel <<<blocksPerGrid, threadsPerBlock >>> (dev_c, dev_a, dev_b, width);
-
-    cudaStatus = cudaGetLastError();
-    if (cudaStatus != cudaSuccess) {
-        fprintf(stderr, "Kernel launch failed: %s\n", cudaGetErrorString(cudaStatus));
-        goto Error;
+    // Check kernel launch
+    status = cudaGetLastError();
+    if (status != cudaSuccess) {
+        fprintf(stderr, "Kernel launch failed: %s\n", cudaGetErrorString(status));
+        cleanup();
+        return status;
     }
 
-    cudaStatus = cudaDeviceSynchronize();
-    if (cudaStatus != cudaSuccess) {
+    // Wait for GPU
+    status = cudaDeviceSynchronize();
+    if (status != cudaSuccess) {
         fprintf(stderr, "cudaDeviceSynchronize failed!\n");
-        goto Error;
+        cleanup();
+        return status;
     }
 
-    cudaStatus = cudaMemcpy(c, dev_c, total * sizeof(int), cudaMemcpyDeviceToHost);
-    if (cudaStatus != cudaSuccess) goto Error;
+    // Copy result back
+    status = cudaMemcpy(c, dev_c, total * sizeof(int), cudaMemcpyDeviceToHost);
+    if (status != cudaSuccess) {
+        cleanup();
+        return status;
+    }
 
-Error:
-    cudaFree(dev_c);
-    cudaFree(dev_a);
-    cudaFree(dev_b);
-
-    return cudaStatus;
+    cleanup();
+    return cudaSuccess;
 }
-
 // Helper to print only the first 5 values of a matrix
 void printMatrixFirst5(const char* name, int* M, int width)
 {
