@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="bookmat.vcxproj" Id="a3f0c5aa-299e-458a-bba3-f10c23332fe8" />
+</Solution>

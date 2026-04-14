@@ -6,14 +6,18 @@
 
 int main()
 {
-	cudaDeviceProp prop;
-	int dev;
-	HANDLE_ERROR(cudaGetDeviceCount(&dev));
-	printf("ID of current CUDA device: %d\n", dev);
-	memset(&prop, 0, sizeof(cudaDeviceProp));
-	prop.major = 1;
-	prop.minor = 3;
-	HANDLE_ERROR(cudaChooseDevice(&dev, &prop));
-	printf("ID of CUDA device closest to revision 1.3: %d", dev);
-	HANDLE_ERROR(cudaSetDevice(dev));
+    int count;
+    HANDLE_ERROR(cudaGetDeviceCount(&count));
+    printf("Number of CUDA devices: %d\n", count);
+
+    int currentDevice;
+    HANDLE_ERROR(cudaGetDevice(&currentDevice));
+    printf("Current CUDA device ID: %d\n", currentDevice);
+
+    cudaDeviceProp prop;
+    HANDLE_ERROR(cudaGetDeviceProperties(&prop, currentDevice));
+
+    printf("Compute Capability: %d.%d\n", prop.major, prop.minor);
+
+    return 0;
 }
