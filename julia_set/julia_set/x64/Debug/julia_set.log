@@ -1,0 +1,18 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\crupi\source\repos\cplus\julia_set>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\bin\nvcc.exe" -gencode=arch=compute_75,code=\"sm_75,compute_75\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\include" -I"C:\Users\crupi\vcpkg\installed\x64-windows-static\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\include"  -G   --keep-dir julia_set\x64\Debug  -maxrregcount=0    --machine 64 --compile -cudart hybrid  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdjulia_set\x64\Debug\vc145.pdb" -o C:\Users\crupi\source\repos\cplus\julia_set\julia_set\x64\Debug\kernel.cu.obj "C:\Users\crupi\source\repos\cplus\julia_set\kernel.cu" 
+C:\Users\crupi\source\repos\cplus\julia_set\../common/cpu_bitmap.h(49): warning #2464-D: conversion from a string literal to "char *" is deprecated
+            char* dummy = "";
+                          ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\crupi\source\repos\cplus\julia_set\../common/cpu_bitmap.h(49): warning #2464-D: conversion from a string literal to "char *" is deprecated
+            char* dummy = "";
+                          ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+  kernel.cu
+  tmpxft_000013b8_00000000-7_kernel.cudafe1.cpp
+  julia_set.vcxproj -> C:\Users\crupi\source\repos\cplus\julia_set\x64\Debug\julia_set.exe
