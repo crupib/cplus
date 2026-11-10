@@ -3,14 +3,17 @@
 #include "../common/book.h"
 #include <stdio.h>
 
-#define N 10000
+#define N (33 * 1024)
 
 __global__ void add(int* a, int* b, int* c) {
-    int tid = blockIdx.x;
+    int tid = threadIdx.x + blockIdx.x * blockDim.x;
 
-    if (tid < N)
+    while (tid < N) {
         c[tid] = a[tid] + b[tid];
+        tid += blockDim.x * gridDim.x;
+    }
 }
+        
 
 int main()
 {
@@ -32,7 +35,7 @@ int main()
     HANDLE_ERROR(cudaMalloc((void**)&dev_c, N * sizeof(int)));
 
     for (int i = 0; i < N; i++) {
-        a[i] = -i;
+        a[i] = i;
         b[i] = i * i;
     }
 
@@ -53,7 +56,7 @@ int main()
     // -------------------------------
     HANDLE_ERROR(cudaEventRecord(start, 0));
 
-    add << <N, 1 >> > (dev_a, dev_b, dev_c);
+    add <<< 128/128 >>> (dev_a, dev_b, dev_c);
 
     HANDLE_ERROR(cudaEventRecord(stop, 0));
     HANDLE_ERROR(cudaEventSynchronize(stop));
@@ -73,7 +76,7 @@ int main()
     totalGPUTime = h2dTime + kernelTime + d2hTime;
 
     // Print results
-    for (int i = 0; i < N; i++) {
+    for (int i = 0; i < 10; i++) {
         printf("%d + %d = %d\n", a[i], b[i], c[i]);
     }
 

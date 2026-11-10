@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "julia_set\\x64\\Debug\\kernel.obj",
+            "outputs": [
+                "julia_set\\x64\\Debug\\kernel.cu.obj.dt.module.json",
+                "julia_set\\x64\\Debug\\kernel.cu.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

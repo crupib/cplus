@@ -74,7 +74,7 @@ int main(void) {
     data.dev_bitmap = dev_bitmap;
 
     dim3    grid(DIM, DIM);
-    kernel <<<grid, 1 >> > (dev_bitmap);
+    kernel <<<grid, 1 >>> (dev_bitmap);
 
     HANDLE_ERROR(cudaMemcpy(bitmap.get_ptr(), dev_bitmap,
         bitmap.image_size(),
